@@ -1,0 +1,371 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+=======
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
+
+	<groupId>rahulshettyacadmey</groupId>
+	<artifactId>MavenFramework1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>MavenFramework1</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
+
+=======
+	<groupId>rahulshettyacadmey</groupId>
+	<artifactId>MavenFramework1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MavenFramework1</name>
+	<!--  FIXME change it to the project's website  -->
+	<url>http://www.example.com</url>
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>17</maven.compiler.release>
+	</properties>
+<<<<<<< HEAD
+
+=======
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.junit</groupId>
+				<artifactId>junit-bom</artifactId>
+				<version>5.11.0</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+<<<<<<< HEAD
+
+=======
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.28.1</version>
+		</dependency>
+<<<<<<< HEAD
+
+		<!--
+		https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+=======
+		<!-- 
+		https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.18.3</version>
+		</dependency>
+<<<<<<< HEAD
+
+
+		<!--
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+=======
+		<!-- 
+		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.9.3</version>
+		</dependency>
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.2</version>
+			<scope>test</scope>
+		</dependency>
+<<<<<<< HEAD
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+=======
+		<!--  https://mvnrepository.com/artifact/io.cucumber/cucumber-java  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.22.0</version>
+		</dependency>
+<<<<<<< HEAD
+
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+=======
+		<!--  https://mvnrepository.com/artifact/io.cucumber/cucumber-testng  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.22.0</version>
+		</dependency>
+<<<<<<< HEAD
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+=======
+		<!--  https://mvnrepository.com/artifact/com.aventstack/extentreports  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.2</version>
+		</dependency>
+<<<<<<< HEAD
+
+
+		<!-- Optionally: parameterized tests support -->
+=======
+		<!--  Optionally: parameterized tests support  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<scope>test</scope>
+		</dependency>
+<<<<<<< HEAD
+		<dependency>
+			<groupId>TestNG</groupId>
+			<artifactId>TestNG</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+
+		<profile>
+			<id>Regression</id>
+
+			<build>
+				<pluginManagement><!-- lock down plugins versions to avoid using
+					Maven
+			defaults (may be moved to parent pom) -->
+					<plugins>
+
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.5.2</version>
+							<configuration>
+								<suiteXmlFiles>
+									<suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+
+		</profile>
+
+		<profile>
+			<id>Purchase</id>
+
+			<build>
+				<pluginManagement><!-- lock down plugins versions to avoid using
+					Maven
+			defaults (may be moved to parent pom) -->
+					<plugins>
+
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.5.2</version>
+							<configuration>
+								<suiteXmlFiles>
+									<suiteXmlFile>testSuites/Purchase.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+
+		</profile>
+
+		<profile>
+			<id>ErrorValidationTest</id>
+
+			<build>
+				<pluginManagement><!-- lock down plugins versions to avoid using
+					Maven
+			defaults (may be moved to parent pom) -->
+					<plugins>
+
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-surefire-plugin</artifactId>
+							<version>3.5.2</version>
+							<configuration>
+								<suiteXmlFiles>
+									<suiteXmlFile>
+										testSuites/ErrorValidationTests.xml</suiteXmlFile>
+								</suiteXmlFiles>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+
+		</profile>
+
+	</profiles>
+
+
+	<build>
+		<pluginManagement><!-- lock down plugins versions to avoid using Maven
+			defaults (may be moved to parent pom) -->
+			<plugins>
+
+=======
+	</dependencies>
+	<profiles>
+		<profile>
+			<id>Regression</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.5.2</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testSuites/testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>Purchase</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.5.2</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>testSuites/Purchase.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>ErrorValidationTest</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.5.2</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>
+									testSuites/ErrorValidationTests.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<build>
+		<pluginManagement>
+			<!--  lock down plugins versions to avoid using Maven
+			defaults (may be moved to parent pom)  -->
+			<plugins>
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.5.2</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+<<<<<<< HEAD
+				<!-- clean lifecycle, see
+				https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+=======
+				<!--  clean lifecycle, see
+				https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+				<plugin>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>3.4.0</version>
+				</plugin>
+<<<<<<< HEAD
+				<!-- default lifecycle, jar packaging: see
+				https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+=======
+				<!--  default lifecycle, jar packaging: see
+				https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.3.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.13.0</version>
+				</plugin>
+				<plugin>
+<<<<<<< HEAD
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.3.0</version>
+				</plugin>
+				<plugin>
+=======
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.4.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>3.1.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>3.1.2</version>
+				</plugin>
+<<<<<<< HEAD
+				<!-- site lifecycle, see
+				https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+=======
+				<!--  site lifecycle, see
+				https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle  -->
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)
+				<plugin>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.12.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-project-info-reports-plugin</artifactId>
+					<version>3.6.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+<<<<<<< HEAD
+</project>
+=======
+</project>
+>>>>>>> bbdb940 (Fix: Removed invalid TestNG dependency and cleaned POM)

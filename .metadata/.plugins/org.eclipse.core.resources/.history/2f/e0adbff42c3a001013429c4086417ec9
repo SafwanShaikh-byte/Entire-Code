@@ -1,0 +1,38 @@
+package Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
+
+public class Customer {
+
+	ChromeOptions options = new ChromeOptions();
+	WebDriver driver;
+
+	@Test
+	public void customer() throws InterruptedException
+	{
+	
+	System.setProperty("WebDriver.Chrome.options","D:\\Browser Drivers\\Chrome Drivers\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+	driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	System.out.println("Browser opened");
+	
+	
+	
+		driver.get("https://developer.yelowsoft.co/login");// Website
+		driver.findElement(By.id("inputEmail")).sendKeys("support+12345@yelowsoft.com");
+		driver.findElement(By.id("inputPassword")).sendKeys("pbdev@123");
+		Thread.sleep(5000L);
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		Thread.sleep(5000L);
+
+		driver.get("https://developer.yelowsoft.co/passenger?is_active=1&page=1");
+		driver.findElement(By.xpath("//a[normalize-space()='New']")).click();
+		driver.findElement(By.xpath("(//input[@placeholder='Enter Customer First Name'])[1]")).sendKeys("First")
+	
+
+}
+}

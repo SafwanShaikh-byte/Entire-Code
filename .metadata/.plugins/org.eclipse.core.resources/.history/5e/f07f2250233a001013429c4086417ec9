@@ -1,0 +1,26 @@
+package Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Customer {
+
+	ChromeOptions options = new ChromeOptions();
+	options.addArguments("--use-fake-ui-for-media-stream"); // Allow media access
+	options.addArguments("--disable-geolocation");
+	options.addArguments("--disable-notifications");
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	String originalWindow = driver.getWindowHandle();
+	driver.get("https://developer.yelowsoft.co/login");// Website
+	driver.findElement(By.id("inputEmail")).sendKeys("support+12345@yelowsoft.com");
+	driver.findElement(By.id("inputPassword")).sendKeys("pbdev@123");
+	Thread.sleep(5000L);
+	driver.findElement(By.xpath("//button[@type='submit']")).click();
+	Thread.sleep(5000L);
+}

@@ -1,0 +1,65 @@
+public class BaseTest {
+
+    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    public LandingPage landingPage;
+
+    public WebDriver initializeDriver() throws IOException {
+        Properties prop = new Properties();
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
+                + "//src//main//java//rahulshettyacademy//resources//GlobalData.properties");
+        prop.load(fis);
+
+        String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
+
+        WebDriver localDriver = null;
+
+        if (browserName.contains("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+            WebDriverManager.chromedriver().setup();
+            if (browserName.contains("headless")) {
+                options.addArguments("headless");
+            }
+            localDriver = new ChromeDriver(options);
+            localDriver.manage().window().setSize(new Dimension(1440, 900));
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            localDriver = new FirefoxDriver();
+        } else if (browserName.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            localDriver = new EdgeDriver();
+        }
+
+        localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        localDriver.manage().window().maximize();
+        tlDriver.set(localDriver); // ✅ Save to ThreadLocal
+        return getDriver();
+    }
+
+    public static WebDriver getDriver() {
+        return tlDriver.get();
+    }
+
+    public String getScreenshot(String testCaseName, WebDriver driver) throws IOException {
+        if (driver == null) {
+            System.out.println("Driver is null — screenshot not taken.");
+            return null;
+        }
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        File file = new File(System.getProperty("user.dir") + "//reports//" + testCaseName + ".png");
+        FileUtils.copyFile(source, file);
+        return file.getAbsolutePath();
+    }
+
+    public LandingPage launchApplication() throws IOException {
+        WebDriver driver = initializeDriver();
+        landingPage = new LandingPage(driver);
+        landingPage.goTo();
+        return landingPage;
+    }
+
+    public void tearDown() {
+        getDriver().quit();
+        tlDriver.remove();
+    }
+}

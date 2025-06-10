@@ -1,0 +1,19 @@
+
+public class PrimenUmbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=0;
+		System.out.println("To Find the Prime Number between 1 to 100");
+		
+		for (i=0;i<=100;i++)
+		{
+			if (i%2 ==0)
+				System.out.println("Prime Numbers are " + i);
+			
+		}
+
+	}
+
+}

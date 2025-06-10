@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="0.0.1"/>
+			<item value="(//div[@class=&apos;control__indicator&apos;])[2])"/>
+			<item value="//div[@class=&apos;control__indicator&apos;])[2]"/>
+			<item value="7.9.0"/>
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="maven-surefire-plugin"/>
+			<item value="nega"/>
+		</list>
+	</section>
+</section>

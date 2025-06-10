@@ -1,0 +1,20 @@
+
+public class PrimenUmbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i=0;
+		int num = 0;
+		System.out.println("Prime Numbers between 1 and 100:");
+		
+		for (i=0;i<=100;i++)
+		{
+			if (num % i == 0)
+				System.out.println("Prime Numbers are " + num);
+			
+		}
+
+	}
+
+}
