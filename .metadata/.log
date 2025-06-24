@@ -725,3 +725,1641 @@ java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.os
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50930 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-831913300\testng-customsuite.xml
 java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\excelDataProvider\target\test-classes:D:\Eclipse\excelDataProvider\target\classes:C:\Users\Safwan\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar:C:\Users\Safwan\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:D:\Eclipse\TestNG\target\classes:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar:C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar:C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar:C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar:C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar:D:\Eclipse\Introduction\target\classes:C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar:C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:D:\Eclipse\ExcelDriven\target\classes:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar:C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar:C:\Users\Safwan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\Safwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\Safwan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar org.testng.remote.RemoteTestNG -serport 50930 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-831913300\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2025-06-22 20:11:10.629
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\excelDataProvider\target\test-classes D:\Eclipse\excelDataProvider\target\classes C:\Users\Safwan\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\Safwan\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar C:\Users\Safwan\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar D:\Eclipse\TestNG\target\classes C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar D:\Eclipse\Introduction\target\classes C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\Safwan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\Safwan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\Safwan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar D:\Eclipse\ExcelDriven\target\classes C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar C:\Users\Safwan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar C:\Users\Safwan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\Safwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\Safwan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\Safwan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58857 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--903605069\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\excelDataProvider\target\test-classes:D:\Eclipse\excelDataProvider\target\classes:C:\Users\Safwan\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar:C:\Users\Safwan\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:D:\Eclipse\TestNG\target\classes:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar:C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar:C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar:C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar:C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar:D:\Eclipse\Introduction\target\classes:C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar:C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:D:\Eclipse\ExcelDriven\target\classes:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar:C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar:C:\Users\Safwan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\Safwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\Safwan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar org.testng.remote.RemoteTestNG -serport 58857 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--903605069\testng-customsuite.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.560
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.561
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.563
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.564
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.571
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:13:25.575
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 20:13:27.674
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:149)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 20:13:28.679
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:33:14.705
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:33:14.708
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:33:48.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:33:48.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:33.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:33.925
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:36.029
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:36.031
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:42.841
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:42.842
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:47.064
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:47.066
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:55.441
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:34:55.442
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:35:57.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:35:57.015
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.315
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.315
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.315
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.316
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.319
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 20:36:10.322
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 20:36:12.323
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:149)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 20:36:13.325
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-06-22 20:36:23.822
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:5004)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5044)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5012)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5094)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5068)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1017)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1423)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument$1.run(BasicStructuredDocument.java:2973)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireDocumentRewriteSessionEvent(BasicStructuredDocument.java:2971)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalStopRewriteSession(BasicStructuredDocument.java:2853)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.stopRewriteSession(JobSafeStructuredDocument.java:237)
+	at org.eclipse.jface.text.RewriteSessionEditProcessor.performEdits(RewriteSessionEditProcessor.java:101)
+	at org.eclipse.lsp4e.LSPEclipseUtils.applyEdits(LSPEclipseUtils.java:571)
+	at org.eclipse.lsp4e.VersionedEdits.apply(VersionedEdits.java:45)
+	at org.eclipse.lsp4e.operations.format.LSPFormatHandler.lambda$1(LSPFormatHandler.java:53)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.lsp4e.operations.format.LSPFormatHandler.lambda$0(LSPFormatHandler.java:51)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:02.530
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:02.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:41.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:41.459
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:41.834
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:41.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:42.089
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:42.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:42.146
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:37:42.149
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:16.690
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:16.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.704
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.706
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.918
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.967
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:26.968
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:27.018
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:27.019
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:51.963
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:51.966
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:59.828
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:38:59.829
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:39:10.836
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:39:10.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:39:11.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:39:11.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:40:27.540
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:40:27.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:42:37.004
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:42:37.005
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:43:23.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:43:23.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:44:28.949
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:44:28.951
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:45:24.141
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:45:24.142
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:48:58.296
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:48:58.297
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:49:14.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:49:14.788
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:54:48.933
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:54:48.934
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:55:29.434
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:55:29.435
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:55:38.840
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 20:55:38.841
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:00:20.574
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:00:20.577
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:14.041
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:14.043
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:28.972
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:28.974
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:37.513
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:37.514
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:45.192
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:01:45.194
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:07.655
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:07.656
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:17.435
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:17.436
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:44.890
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:03:44.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:04:08.428
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:04:08.429
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:04:45.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:04:45.666
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:13.238
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:13.239
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:15.322
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:15.323
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:38.798
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:38.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:41.528
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:05:41.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:06:36.284
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:06:36.285
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:13.534
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:13.535
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:20.346
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:20.347
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:41.057
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:10:41.058
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:16:32.176
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:16:32.177
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:21.814
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:21.815
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.293
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.348
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.349
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.416
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.474
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:19:23.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:21:20.907
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:21:20.909
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:21:47.214
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:21:47.218
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:23:12.228
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:23:12.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.369
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.369
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.370
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.370
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.377
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:23:49.386
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 21:23:51.402
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:149)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-06-22 21:23:52.405
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:01.583
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:01.584
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:02.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:02.512
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:10.142
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:10.143
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:11.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:11.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:24:16.190
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver -->\r\n\t\tdependency>\r\n        <g... @13:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver -->\r\n\t\tdependency>\r\n        <g... @13:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:24:16.190
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver -->\r\n\t\tdependency>\r\n        <g... @13:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver -->\r\n\t\tdependency>\r\n        <g... @13:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:24:16.269
+!MESSAGE The POM for Introduction:Introduction:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.tm4e.ui 4 0 2025-06-22 21:24:17.182
+!MESSAGE Argument not valid
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4903)
+	at org.eclipse.swt.SWT.error(SWT.java:4837)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.custom.StyledText.setStyleRanges(StyledText.java:10185)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7731)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4782)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4859)
+	at org.eclipse.tm4e.ui.text.Colorizer.colorize(Colorizer.java:168)
+	at org.eclipse.tm4e.ui.text.TMPresentationReconciler$TextViewerListener.textChanged(TMPresentationReconciler.java:273)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2795)
+	at org.eclipse.jface.text.TextViewer.fireRedrawChanged(TextViewer.java:5004)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5044)
+	at org.eclipse.jface.text.TextViewer.enabledRedrawing(TextViewer.java:5012)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5094)
+	at org.eclipse.jface.text.TextViewer.setRedraw(TextViewer.java:5068)
+	at org.eclipse.jface.text.TextViewer$RewriteTarget.setRedraw(TextViewer.java:1017)
+	at org.eclipse.jface.text.TextViewer$DocumentRewriteSessionListener.documentRewriteSessionChanged(TextViewer.java:1423)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument$1.run(BasicStructuredDocument.java:2973)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireDocumentRewriteSessionEvent(BasicStructuredDocument.java:2971)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalStopRewriteSession(BasicStructuredDocument.java:2853)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.stopRewriteSession(JobSafeStructuredDocument.java:237)
+	at org.eclipse.jface.text.RewriteSessionEditProcessor.performEdits(RewriteSessionEditProcessor.java:101)
+	at org.eclipse.lsp4e.LSPEclipseUtils.applyEdits(LSPEclipseUtils.java:571)
+	at org.eclipse.lsp4e.VersionedEdits.apply(VersionedEdits.java:45)
+	at org.eclipse.lsp4e.operations.format.LSPFormatHandler.lambda$1(LSPFormatHandler.java:53)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.lsp4e.operations.format.LSPFormatHandler.lambda$0(LSPFormatHandler.java:51)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:24:17.402
+!MESSAGE Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45)  @ line 11, column 45
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45)  @ line 11, column 45
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:24:18.126
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:24:18.126
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...<!-- Selenium WebDriver --> dependency> <g... @11:45) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-06-22 21:25:15.606
+!MESSAGE An internal error occurred during: "reload maven project".
+!STACK 0
+java.lang.IllegalStateException: Could not acquire lock(s)
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapter$AdaptedLockSyncContext.acquire(NamedLockFactoryAdapter.java:219)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:276)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:261)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:353)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:184)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:224)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:640)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:375)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:126)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+	Suppressed: java.lang.IllegalStateException: Attempt 1: Could not acquire write lock for 'artifact:com.beust:jcommander:1.82' in 30 SECONDS
+		at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapter$AdaptedLockSyncContext.acquire(NamedLockFactoryAdapter.java:202)
+		... 19 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.197
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.429
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.432
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.501
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.597
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.600
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.700
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:18.702
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:25:41.655
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:25:41.655
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:25:41.776
+!MESSAGE The POM for Introduction:Introduction:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.jdt 4 -1 2025-06-22 21:25:42.148
+!MESSAGE Could not download sources or javadoc
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:25:42.148
+!MESSAGE Could not read maven project
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-06-22 21:25:42.148
+!MESSAGE Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16)  @ line 18, column 16
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16)  @ line 18, column 16
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:904)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.lambda$1(MavenProjectCache.java:192)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache$CacheLine.getProject(MavenProjectCache.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectCache.getMavenProject(MavenProjectCache.java:105)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$24(ProjectRegistryManager.java:1101)
+	at java.base/java.util.Map.computeIfAbsent(Map.java:1066)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1100)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:289)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:248)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:25:44.164
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:25:44.164
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @18:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:25:46.651
+!MESSAGE Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16)  @ line 19, column 16
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM D:\Eclipse\Introduction\pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16)  @ line 19, column 16
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-06-22 21:25:46.831
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-06-22 21:25:46.831
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependency> must match start tag name <dependencies> from line 10 (position: TEXT seen ...</dependency>\r\n\t\t</dependency>... @19:16) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2317)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:18.182
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:18.184
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.635
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.636
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.839
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.921
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.974
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:26:20.976
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:30:08.831
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:30:08.833
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:30:42.559
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:30:42.562
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:35:14.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:35:14.040
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.935
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.936
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.937
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.938
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.943
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:35:38.947
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.710
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.710
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.712
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.714
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.720
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:38:21.723
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:42:11.171
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:42:11.173
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.531
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.532
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.533
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.534
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.538
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 21:42:16.542
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:29.362
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:29.363
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:36.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:36.757
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:39.799
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:39.802
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:42.888
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:44:42.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:45:28.847
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 21:45:28.847
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.691
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.698
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.698
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.700
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.706
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-06-22 22:35:11.710
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:13.658
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:13.661
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.104
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.107
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.261
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.263
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.348
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:14.352
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:55.160
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:55.161
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:56.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:36:56.281
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:37:47.649
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:37:47.651
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:39:14.309
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:39:14.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:03.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:03.302
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:10.415
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:10.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:12.598
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:12.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:22.143
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:41:22.144
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.493
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.496
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.764
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.820
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.822
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.868
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:25.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:26.160
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:42:26.162
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:16.282
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:16.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:43.402
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:43.402
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:45.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:45:45.571
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.087
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.088
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.133
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.134
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.195
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.196
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.245
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:41.246
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:42.338
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:46:42.341
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:47:13.455
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:47:13.457
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:47:14.725
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:47:14.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:49:26.752
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-06-22 22:49:26.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2025-06-23 01:20:53.665
+!MESSAGE Connection to https://download.eclipse.org/technology/m2e/releases/p2.index failed on No such host is known (download.eclipse.org). Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: No such host is known (download.eclipse.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:144)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:450)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:162)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:172)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:142)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:106)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1009)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:997)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.testng.eclipse 4 4 2025-06-24 12:18:44.387
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.testng.eclipse 1 0 2025-06-24 12:19:40.298
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\excelDataProvider\target\test-classes D:\Eclipse\excelDataProvider\target\classes C:\Users\Safwan\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\Safwan\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Safwan\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar C:\Users\Safwan\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar D:\Eclipse\TestNG\target\classes C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar D:\Eclipse\Introduction\target\classes C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar D:\Eclipse\ExcelDriven\target\classes C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar C:\Users\Safwan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar C:\Users\Safwan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\Safwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\Safwan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\Safwan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55409 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1190214578\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\excelDataProvider\target\test-classes:D:\Eclipse\excelDataProvider\target\classes:C:\Users\Safwan\Eclipse\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Safwan\Eclipse\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar:C:\Users\Safwan\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:D:\Eclipse\TestNG\target\classes:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.28.1\selenium-java-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.28.1\selenium-api-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.28.1\selenium-chrome-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.28.1\selenium-chromium-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.28.1\selenium-json-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.28.1\selenium-manager-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.28.1\selenium-devtools-v130-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.28.1\selenium-devtools-v131-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.28.1\selenium-devtools-v132-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.28.1\selenium-devtools-v85-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.28.1\selenium-edge-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.28.1\selenium-firefox-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.28.1\selenium-http-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.28.1\selenium-ie-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.28.1\selenium-remote-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar:C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar:C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar:C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.28.1\selenium-os-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.28.1\selenium-safari-driver-4.28.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.28.1\selenium-support-4.28.1.jar:D:\Eclipse\Introduction\target\classes:C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar:C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar:C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar:C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar:C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar:D:\Eclipse\ExcelDriven\target\classes:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar:C:\Users\Safwan\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar:C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar:C:\Users\Safwan\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\Safwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\Safwan\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\Safwan\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar org.testng.remote.RemoteTestNG -serport 55409 -protocol json -d D:\Eclipse\excelDataProvider\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1190214578\testng-customsuite.xml
