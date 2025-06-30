@@ -4,6 +4,8 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="By"/>
+			<item value="By toastLocator = By.cssSelector(&quot;.Toastify__toast-body div:nth-child(2)&quot;)"/>
 			<item value="0.0.1"/>
 			<item value="(//div[@class=&apos;control__indicator&apos;])[2])"/>
 			<item value="//div[@class=&apos;control__indicator&apos;])[2]"/>

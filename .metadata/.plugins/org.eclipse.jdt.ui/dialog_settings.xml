@@ -2,7 +2,9 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-21"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Jcommander"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\Selenium\selenium-java-4.33.0"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<section name="JavaProjectWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="0"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
@@ -38,7 +40,7 @@
 		<item key="configure_problem_severity_dialog_id" value="true"/>
 	</section>
 	<section name="NewClassWizardPage">
-		<item key="create_constructor" value="false"/>
+		<item key="create_constructor" value="true"/>
 		<item key="create_unimplemented" value="true"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
