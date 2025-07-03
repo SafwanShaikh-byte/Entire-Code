@@ -31,6 +31,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Eclipse\DemoFramework"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -54,10 +55,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="YelowCab.myproject"/>
+			<item value="YelowCab.YelowCab"/>
 		</list>
 		<list key="groupId">
+			<item value="YelowCab"/>
 		</list>
 		<list key="artifactId">
+			<item value="myproject"/>
+			<item value="YelowCab"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -73,14 +79,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="TestFiles"/>
-			<item value="DownloadFiles"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Fileupload"/>
-			<item value="Download"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
