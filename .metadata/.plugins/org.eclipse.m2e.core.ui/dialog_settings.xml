@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SelenimFeaturesLatest"/>
 			<item value="JavaStreams"/>
 			<item value="TestNG"/>
 			<item value="Introduction"/>
@@ -9,6 +10,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SelenimFeaturesLatest"/>
 			<item value="JavaStreams"/>
 			<item value="TestNG"/>
 			<item value="Introduction"/>
