@@ -10,4 +10,8 @@
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.emulation.Emulation"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.emulation.Emulation"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.AuthChallengeResponse.Response"/>
+    <fullyQualifiedTypeName name="com.google.common.graph.Network"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.Request"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.fetch.Fetch"/>
 </qualifiedTypeNameHistroy>
