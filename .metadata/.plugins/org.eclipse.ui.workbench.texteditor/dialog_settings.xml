@@ -4,6 +4,10 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="titleValue"/>
+			<item value="titleValue "/>
+			<item value="genderValue "/>
+			<item value="runTest"/>
 			<item value="By"/>
 			<item value="By toastLocator = By.cssSelector(&quot;.Toastify__toast-body div:nth-child(2)&quot;)"/>
 			<item value="0.0.1"/>

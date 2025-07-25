@@ -7,7 +7,7 @@ public class testSample {
 		// TODO Auto-generated method stub
 		
 		dataDrivern d = new dataDrivern();
-		ArrayList data = d.getdata("Add Profile");
+		ArrayList<String> data = d.getdata("Add Profile");
 		System.out.println(data.get(0));
 		System.out.println(data.get(1));
 		System.out.println(data.get(2));

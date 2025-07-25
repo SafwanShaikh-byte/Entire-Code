@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class AddBooking {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
@@ -27,7 +28,6 @@ public class AddBooking {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		String originalWindow = driver.getWindowHandle();
 		driver.get("https://developer.yelowsoft.co/login");// Website
 		driver.findElement(By.id("inputEmail")).sendKeys("support+12345@yelowsoft.com");
 		driver.findElement(By.id("inputPassword")).sendKeys("pbdev@123");
@@ -135,7 +135,6 @@ public class AddBooking {
 		WebElement extraCharge = driver.findElement(By.xpath("(//input[@placeholder='Extra Charge'])[1]"));
 		extraCharge.sendKeys("50");
 		Thread.sleep(1000L);
-		@SuppressWarnings("deprecation")
 		String ExtraValue = userName.getAttribute("value");
 		System.out.println("Extra Charge Value :" + ExtraValue);
 

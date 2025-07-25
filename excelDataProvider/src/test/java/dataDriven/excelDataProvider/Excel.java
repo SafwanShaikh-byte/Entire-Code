@@ -25,7 +25,7 @@ public class Excel {
 		int colcount = row.getLastCellNum();
 		System.out.println("Total Number of Column : " +colcount );
 		
-		Object Data[][] = new Object [rowcount-1][colcount];
+		
 		
 		for (int i=0;i<rowcount-1;i++)
 		{
@@ -39,7 +39,9 @@ public class Excel {
 			}
 			System.out.println("Outer Loop Ended");
 		}
+		
+		wb.close();
 		//return data;
 	}
-
+	
 }

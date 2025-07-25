@@ -3,7 +3,6 @@ import java.util.Optional;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v136.network.model.AuthChallengeResponse.Response;
 import org.openqa.selenium.devtools.v136.network.model.Request;
 
 import org.openqa.selenium.devtools.v136.network.Network;

@@ -51,7 +51,10 @@ public class dataProvide {
 				data[i][j] = formatter.formatCellValue(cell);
 			}
 		}
-		 return data;
+		
+		wb.close();
+		return data;
+		 
 	}
 
 }

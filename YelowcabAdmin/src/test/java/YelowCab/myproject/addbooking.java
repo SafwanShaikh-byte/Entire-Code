@@ -22,9 +22,9 @@ public class addbooking {
 		new addbooking().runTest();
 	}
 
+	
 	public void runTest() throws InterruptedException {
 
-		// Setup Chrome Options
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--use-fake-ui-for-media-stream"); // Allow media access
 		options.addArguments("--disable-geolocation");
@@ -34,10 +34,7 @@ public class addbooking {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
-		String originalWindow = driver.getWindowHandle();
-
+		
 		// Login
 		driver.get("https://yelowcab.yelowsoft.co/login");// Website
 		driver.findElement(By.id("inputEmail")).sendKeys("support+12@yelowsoft.com");
@@ -135,7 +132,6 @@ public class addbooking {
 			WebElement selectedGender = driver.findElement(By.xpath("//input[@name='gender' and @checked='checked']")); // or
 																														// suitable
 																														// locator
-			@SuppressWarnings("deprecation")
 			String genderValue = selectedGender.getAttribute("value");
 			System.out.println("Selected Gender: " + genderValue);
 		} else {
@@ -159,6 +155,7 @@ public class addbooking {
 		userName.sendKeys("Safwan Shaikh");
 		Thread.sleep(2000L);
 		userName.sendKeys(Keys.ENTER);
+		@SuppressWarnings("deprecation")
 		String selectedUser = userName.getAttribute("value");
 		System.out.println("Selected User Name :" + selectedUser);
 
@@ -166,6 +163,7 @@ public class addbooking {
 		WebElement discount = driver.findElement(By.xpath("(//input[@placeholder='Additional Discount'])[1]"));
 		discount.sendKeys("20");
 		Thread.sleep(1000L);
+		@SuppressWarnings("deprecation")
 		String DiscountValue = userName.getAttribute("value");
 		System.out.println("Discount Value :" + DiscountValue);
 

@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 
 public class StringSearch {
 

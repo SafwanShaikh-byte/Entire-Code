@@ -3,15 +3,18 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.emulation.Emulation"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.emulation.Emulation"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.AuthChallengeResponse.Response"/>
     <fullyQualifiedTypeName name="com.google.common.graph.Network"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.Request"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.fetch.Fetch"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.AuthChallengeResponse.Response"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="safwan.pageobjects.CartPage"/>
 </qualifiedTypeNameHistroy>
