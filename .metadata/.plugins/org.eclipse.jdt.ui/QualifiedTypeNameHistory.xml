@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="safwan.pageobjects.CartPage"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.network.model.ConnectionType"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.network.Network"/>
 </qualifiedTypeNameHistroy>
