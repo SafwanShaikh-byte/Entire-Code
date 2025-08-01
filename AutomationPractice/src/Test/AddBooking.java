@@ -97,7 +97,6 @@ public class AddBooking {
 			WebElement selectedGender = driver.findElement(By.xpath("//input[@name='gender' and @checked='checked']")); // or
 																														// suitable
 																														// locator
-			@SuppressWarnings("deprecation")
 			String genderValue = selectedGender.getAttribute("value");
 			System.out.println("Selected Gender: " + genderValue);
 		} else {

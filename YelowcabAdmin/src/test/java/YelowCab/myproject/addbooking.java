@@ -155,7 +155,6 @@ public class addbooking {
 		userName.sendKeys("Safwan Shaikh");
 		Thread.sleep(2000L);
 		userName.sendKeys(Keys.ENTER);
-		@SuppressWarnings("deprecation")
 		String selectedUser = userName.getAttribute("value");
 		System.out.println("Selected User Name :" + selectedUser);
 
@@ -163,7 +162,6 @@ public class addbooking {
 		WebElement discount = driver.findElement(By.xpath("(//input[@placeholder='Additional Discount'])[1]"));
 		discount.sendKeys("20");
 		Thread.sleep(1000L);
-		@SuppressWarnings("deprecation")
 		String DiscountValue = userName.getAttribute("value");
 		System.out.println("Discount Value :" + DiscountValue);
 
@@ -171,7 +169,6 @@ public class addbooking {
 		WebElement extraCharge = driver.findElement(By.xpath("(//input[@placeholder='Extra Charge'])[1]"));
 		extraCharge.sendKeys("50");
 		Thread.sleep(1000L);
-		@SuppressWarnings("deprecation")
 		String ExtraValue = userName.getAttribute("value");
 		System.out.println("Extra Charge Value :" + ExtraValue);
 
