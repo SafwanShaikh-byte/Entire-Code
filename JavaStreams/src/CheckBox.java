@@ -15,6 +15,7 @@ public class CheckBox {
 		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 		

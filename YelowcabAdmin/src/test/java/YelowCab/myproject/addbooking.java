@@ -17,163 +17,113 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class addbooking {
 
-	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated constructor stub
-		new addbooking().runTest();
-	}
+    public static void main(String[] args) throws InterruptedException {
+        new addbooking().runTest();
+    }
 
-	
-	public void runTest() throws InterruptedException {
+    public void runTest() throws InterruptedException {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--use-fake-ui-for-media-stream", "--disable-geolocation", "--disable-notifications");
 
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--use-fake-ui-for-media-stream"); // Allow media access
-		options.addArguments("--disable-geolocation");
-		options.addArguments("--disable-notifications");
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
 
-		// Setup WebDriver
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		
-		// Login
-		driver.get("https://yelowcab.yelowsoft.co/login");// Website
-		driver.findElement(By.id("inputEmail")).sendKeys("support+12@yelowsoft.com");
-		driver.findElement(By.id("inputPassword")).sendKeys("pbdev@123");
-		Thread.sleep(5000L);
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		Thread.sleep(5000L);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-		// Web Booking
-		WebDriver newWindow = driver.switchTo().newWindow(WindowType.TAB);
-		newWindow.get("https://yelowcab.yelowsoft.co/yelowcab/ride/new-add");
-		Thread.sleep(1000L);
+        // Login
+        driver.get("https://yelowcab.yelowsoft.co/login");
+        driver.findElement(By.id("inputEmail")).sendKeys("support+12@yelowsoft.com");
+        driver.findElement(By.id("inputPassword")).sendKeys("pbdev@123");
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(5000);
 
-		// Booking Type
-		
-		// 1. Locate the Booking Type input
-		WebElement bookingTypeInput = driver.findElement(By.xpath("//label[contains(text(),'Booking Type')]/following::ng-select[1]//input"));
+        // Switch to Web Booking tab
+        driver.switchTo().newWindow(WindowType.TAB).get("https://yelowcab.yelowsoft.co/yelowcab/ride/new-add");
+        Thread.sleep(2000);
 
-		// 2. Click the dropdown to activate it
-		bookingTypeInput.click();
-		Thread.sleep(1000); // small wait to allow dropdown to populate
+        // Select Booking Type: Point to Point
+        WebElement bookingType = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[@type='text'])[2]")));
+        bookingType.click();
+        bookingType.sendKeys("Point to Point");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='option']")));
 
-		// 3. Type the desired booking type (e.g., "Pickup")
-		bookingTypeInput.sendKeys("Airport Pick");
+        for (WebElement option : driver.findElements(By.xpath("//div[@role='option']"))) {
+            if (option.getText().contains("Point to Point")) {
+                option.click();
+                break;
+            }
+        }
 
-		// 4. Wait for suggestions to appear and then click the matched one
-		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='option']")));
+        System.out.println("Booking Type selected.");
 
-		List<WebElement> options1 = driver.findElements(By.xpath("//div[@role='option']"));
-		for (WebElement option : options1) 
-		{
-			if (option.getText().contains("Airport Pick"))
-			{
-				option.click();
-				Thread.sleep(1000L);
-				break;
-			}
-		}
+        // Pickup Location
+        WebElement pickup = driver.findElement(By.xpath("(//input[@type='text'])[3]"));
+        pickup.sendKeys("Yelowsoft");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='option']")));
+        pickup.sendKeys(Keys.ENTER);
+        System.out.println("Pickup Location: " + driver.findElement(By.xpath("//span[@title]")).getAttribute("title"));
 
-		// For Pick up Location
-		WebElement pickup = driver.findElement(By.xpath("//input[@type='text'] [1]"));
-		pickup.sendKeys("Yelowsoft");
-		WebDriverWait Wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		Wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='combobox'] [1]")));
-		pickup.sendKeys(Keys.DOWN);
-		pickup.sendKeys(Keys.ENTER);
-		WebElement spanElement = driver.findElement(By.xpath("//span[@title]"));
-		String titleValue = spanElement.getAttribute("title");
-		System.out.println("Selected Pick Up Location : " + titleValue);
+        // Drop-off Location
+        WebElement dropOff = driver.findElement(By.xpath("(//input[@type='text'])[4]"));
+        dropOff.sendKeys("Lal Darwaja");
+       
+        dropOff.sendKeys(Keys.DOWN, Keys.ENTER);
+        Thread.sleep(1000);
+        WebElement dropSpan = driver.findElement(By.xpath("//div[@role='option']"));
+        System.out.println("Drop-off Location: " + dropSpan.getText());
 
-		// For Drop Off Location
-		WebElement dropOff = driver.findElement(By.xpath("(//input[@type='text'])[2]"));
-		dropOff.sendKeys("Lal Darwaja");
-		Thread.sleep(2000L);
-		dropOff.sendKeys(Keys.DOWN);
-		dropOff.sendKeys(Keys.ENTER);
-		WebElement spanElement1 = driver.findElement(By.xpath(
-				"/html[1]/body[1]/app-root[1]/div[1]/div[1]/app-booking-new-template[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/app-search-box-google[1]/ng-select[1]/div[1]/div[1]/div[2]/span[2]/span[1]"));
-		String spanText = spanElement1.getText();
-		System.out.println("Selected Drop off Location : " + spanText);
+        // Select Passenger
+        WebElement passengerDropdown = driver.findElement(By.xpath("(//input[@type='text'])[5]"));
+        passengerDropdown.click();
+        Thread.sleep(1000);
+        passengerDropdown.sendKeys(Keys.DOWN, Keys.ENTER);
+        System.out.println("Passenger selected: " + driver.findElement(By.xpath("//ng-select[5]//span[@title]")).getText());
 
-		// To Select Passenger
-		WebElement dropdown = driver.findElement(By.xpath("(//input[@type='text'])[3]"));
-		dropdown.click();
-		Thread.sleep(1000L);
-		dropdown.sendKeys(Keys.DOWN);
-		dropdown.sendKeys(Keys.ENTER);
-		WebElement dropdownCount = driver.findElement(By.xpath(
-				"/html[1]/body[1]/app-root[1]/div[1]/div[1]/app-booking-new-template[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/ng-select[1]/div[1]/div[1]/div[2]/span[2]"));
-		String dropdownText = dropdownCount.getText();
-		System.out.println("Selected Passengers : " + dropdownText);
+        // Select Luggage
+        WebElement luggageDropdown = driver.findElement(By.xpath("(//input[@type='text'])[6]"));
+        luggageDropdown.click();
+        Thread.sleep(1000);
+        luggageDropdown.sendKeys(Keys.DOWN, Keys.DOWN, Keys.ENTER);
+        System.out.println("Luggage count: " + driver.findElement(By.xpath("//ng-select[6]//span[@title]")).getText());
 
-		// To Select Luggage
-		WebElement luggage = driver.findElement(By.xpath("(//input[@type='text'])[4]"));
-		luggage.click();
-		Thread.sleep(1000L);
-		luggage.sendKeys(Keys.DOWN);
-		luggage.sendKeys(Keys.DOWN);
-		luggage.sendKeys(Keys.ENTER);
-		WebElement luggageCount = driver.findElement(By.xpath(
-				"/html[1]/body[1]/app-root[1]/div[1]/div[1]/app-booking-new-template[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/ng-select[1]/div[1]/div[1]/div[2]/span[2]"));
-		String luggageText = luggageCount.getText();
-		System.out.println("Selected No of Bags : " + luggageText);
+        // Select Gender
+        List<WebElement> genderOptions = driver.findElements(By.xpath("(//div[@class='control__indicator'])[2]"));
+        if (!genderOptions.isEmpty()) {
+            genderOptions.get(0).click();
+            WebElement selectedGender = driver.findElement(By.xpath("//input[@name='gender' and @checked='checked']"));
+            System.out.println("Gender selected: " + selectedGender.getAttribute("value"));
+        } else {
+            System.out.println("Gender element not found.");
+        }
 
-		// To Select the Gendor
-		String genderXPath = "(//div[@class='control__indicator'])[2]";
-		List<WebElement> genderElements = driver.findElements(By.xpath(genderXPath));
+        // Select Vehicle
+        WebElement vehicle = driver.findElement(By.xpath("(//input[@type='text'])[7]"));
+        vehicle.click();
+        Thread.sleep(1000);
+        vehicle.sendKeys(Keys.DOWN, Keys.ENTER);
+        System.out.println("Vehicle selected: " + vehicle.getAttribute("value"));
 
-		if (!genderElements.isEmpty()) {
-			WebElement genderSelect = genderElements.get(0);
-			genderSelect.click();
+        // Select Customer
+        WebElement customer = driver.findElement(By.xpath("(//input[@type='text'])[8]"));
+        customer.sendKeys("Safwan Shaikh");
+        Thread.sleep(2000);
+        customer.sendKeys(Keys.ENTER);
+        System.out.println("Customer selected: " + customer.getAttribute("value"));
 
-			// Get selected gender value (update XPath to match your actual form element)
-			WebElement selectedGender = driver.findElement(By.xpath("//input[@name='gender' and @checked='checked']")); // or
-																														// suitable
-																														// locator
-			String genderValue = selectedGender.getAttribute("value");
-			System.out.println("Selected Gender: " + genderValue);
-		} else {
-			System.out.println("Gender selection element not found. Skipping selection.");
-		}
+        // Additional Discount
+        WebElement discount = driver.findElement(By.xpath("(//input[@placeholder='Additional Discount'])[1]"));
+        discount.sendKeys("20");
+        System.out.println("Discount entered: 20");
 
-		// To Enter Data in Text option
-		WebElement textBox = driver.findElement(By.xpath("(//textarea[@placeholder='Notes'])[1]"));
-		textBox.sendKeys("Hello World");
+        // Extra Charge
+        WebElement extraCharge = driver.findElement(By.xpath("(//input[@placeholder='Extra Charge'])[1]"));
+        extraCharge.sendKeys("50");
+        System.out.println("Extra charge entered: 50");
 
-		// To Select vehicle
-		WebElement vehicleType = driver.findElement(By.xpath("(//input[@type='text'])[6]"));
-		vehicleType.click();
-		Thread.sleep(1000L);
-		vehicleType.sendKeys(Keys.DOWN);
-		vehicleType.sendKeys(Keys.ENTER);
-		System.out.println("Selected Vehicle Type :" + vehicleType.getAttribute("value"));
-
-		// To Select Customer
-		WebElement userName = driver.findElement(By.xpath("(//input[@type='text'])[8]"));
-		userName.sendKeys("Safwan Shaikh");
-		Thread.sleep(2000L);
-		userName.sendKeys(Keys.ENTER);
-		String selectedUser = userName.getAttribute("value");
-		System.out.println("Selected User Name :" + selectedUser);
-
-		// To Add Additonal Discount
-		WebElement discount = driver.findElement(By.xpath("(//input[@placeholder='Additional Discount'])[1]"));
-		discount.sendKeys("20");
-		Thread.sleep(1000L);
-		String DiscountValue = userName.getAttribute("value");
-		System.out.println("Discount Value :" + DiscountValue);
-
-		// To Enter Extra Charge
-		WebElement extraCharge = driver.findElement(By.xpath("(//input[@placeholder='Extra Charge'])[1]"));
-		extraCharge.sendKeys("50");
-		Thread.sleep(1000L);
-		String ExtraValue = userName.getAttribute("value");
-		System.out.println("Extra Charge Value :" + ExtraValue);
-
-		driver.findElement(By.xpath("(//button[normalize-space()='submit'])[1]")).click();
-
-	}
-
+        // Submit Booking
+        driver.findElement(By.xpath("(//button[normalize-space()='submit'])[1]")).click();
+        System.out.println("Booking submitted successfully.");
+    }
 }
