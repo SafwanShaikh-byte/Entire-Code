@@ -28,7 +28,6 @@ public class Login {
 		System.out.println("Browser opened");
 	}
 	
-	@SuppressWarnings("deprecation")
 	@Test
 	public void placeholder() 
 	{
@@ -77,7 +76,6 @@ public class Login {
 		
 	}
 	
-	@SuppressWarnings("deprecation")
 	@Test
 	public void links() 
 	{

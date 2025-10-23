@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class Fibonacci {
 
@@ -8,7 +8,6 @@ public class Fibonacci {
 
 		int num = 0, a=0,b=0,c=1;
 		
-		Scanner in = new Scanner(System.in);
 		System.out.println("Enter the number of times");
 				
 		System.out.println("Fibonacci Series of the number is:");

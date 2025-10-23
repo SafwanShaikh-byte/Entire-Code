@@ -57,8 +57,7 @@ public class AddbookingBulk {
         driver.quit();
     }
 
-    @SuppressWarnings("deprecation")
-	private static void createBooking(WebDriver driver, WebDriverWait wait, int tripIndex) throws InterruptedException {
+    private static void createBooking(WebDriver driver, WebDriverWait wait, int tripIndex) throws InterruptedException {
         // For Pick up Location
         WebElement pickup = driver.findElement(By.xpath("//input[@type='text'] [1]"));
         pickup.sendKeys("Location " + (tripIndex + 1));

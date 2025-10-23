@@ -13,10 +13,8 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.AuthChallengeResponse.Response"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="safwan.pageobjects.CartPage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.network.model.ConnectionType"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v121.network.Network"/>
     <fullyQualifiedTypeName name="com.github.dockerjava.transport.DockerHttpClient.Request"/>
@@ -24,4 +22,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.Network"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.network.model.Request"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.network.Network"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
