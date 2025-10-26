@@ -10,7 +10,7 @@ public class BankAccount {
 	{
 		this.accountNumber = accountNumber;
 		this.accountHolderName = accountHolderName;
-		balance = 0.0;
+		this.balance = balance;
 	}
 	
 	void displayAccountInfo() 
