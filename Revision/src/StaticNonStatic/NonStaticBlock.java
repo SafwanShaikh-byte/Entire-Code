@@ -10,6 +10,10 @@ public class NonStaticBlock {
 	NonStaticBlock() {
 		System.out.println("Constructor is called.");
 	}
+	
+	void display() {
+		System.out.println("Display method called.");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,10 +21,8 @@ public class NonStaticBlock {
 		NonStaticBlock obj1 = new NonStaticBlock(); // First object creation
 		NonStaticBlock obj2 = new NonStaticBlock(); // Second object creation
 		
-		obj1 = new NonStaticBlock(); // Third object creation
-		obj2 = new NonStaticBlock(); // Fourth object creation
-		
-		
+		obj1.display();
+		obj2.display();
 	}
 
 	}
