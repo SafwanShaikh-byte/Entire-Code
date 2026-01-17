@@ -2,7 +2,7 @@ public class armStrong{
 	
  public static void main(String[] args)  {  
    int c=0,a,temp;  
-   int n=154;//It is the number to check Armstrong  
+   int n=153;//It is the number to check Armstrong  
    temp=n;  
    while(n>0)  
    {  
@@ -11,8 +11,8 @@ public class armStrong{
     c=c+(a*a*a);  
     }  
     if(temp==c)  
-    System.out.println("armstrong number");   
+    System.out.println("Armstrong number");   
     else
-        System.out.println("Not armstrong number");   
+        System.out.println("Not Armstrong number");   
    }  
 }

@@ -13,6 +13,7 @@ import org.testng.Assert;
 
 public class fileUpload {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException, IOException {
 
 		WebDriver driver = null;

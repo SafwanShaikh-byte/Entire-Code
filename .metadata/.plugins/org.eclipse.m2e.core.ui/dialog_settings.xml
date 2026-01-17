@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="AutoIT"/>
 			<item value="Revision"/>
 			<item value="DatabaseTesting"/>
 			<item value="SelenimFeaturesLatest"/>
@@ -12,6 +13,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AutoIT"/>
 			<item value="Revision"/>
 			<item value="DatabaseTesting"/>
 			<item value="SelenimFeaturesLatest"/>
