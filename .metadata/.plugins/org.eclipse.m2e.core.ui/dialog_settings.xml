@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="AutomationExcersize"/>
 			<item value="AutoIT"/>
 			<item value="Revision"/>
 			<item value="DatabaseTesting"/>
@@ -13,6 +14,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AutomationExcersize"/>
 			<item value="AutoIT"/>
 			<item value="Revision"/>
 			<item value="DatabaseTesting"/>
@@ -63,22 +65,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="SeleniumProject.selenium_login_automation"/>
-			<item value="com.practical.Calidad.Saucedemo"/>
-			<item value="YelowCab"/>
-			<item value="YelowCab.myproject"/>
-			<item value="YelowCab.YelowCab"/>
 		</list>
 		<list key="groupId">
-			<item value="SeleniumProject"/>
-			<item value="com.practical.Calidad"/>
-			<item value="YelowCab"/>
 		</list>
 		<list key="artifactId">
-			<item value="selenium-login-automation"/>
-			<item value="Saucedemo"/>
-			<item value="myproject"/>
-			<item value="YelowCab"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -94,10 +84,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="APITesting"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="APITesting"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

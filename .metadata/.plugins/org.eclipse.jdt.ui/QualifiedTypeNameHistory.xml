@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v138.emulation.Emulation"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.emulation.Emulation"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v136.network.model.Request"/>
@@ -25,5 +24,9 @@
     <fullyQualifiedTypeName name="String.ExtractSubString"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.devtools.v118.tracing.model.TraceConfig.RecordMode"/>
 </qualifiedTypeNameHistroy>

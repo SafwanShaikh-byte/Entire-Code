@@ -16,3 +16,1752 @@ Created Time: 2026-01-17 13:56:23.703
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 52188 -protocol json -d D:\Eclipse\Assignments\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1177710296\testng-customsuite.xml
 java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\Assignments\target\test-classes:D:\Eclipse\Assignments\target\classes:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar:C:\Users\Safwan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar:C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Safwan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\Safwan\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar:C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar:C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar:C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\json\json\20180813\json-20180813.jar:C:\Users\Safwan\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar:C:\Users\Safwan\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar:C:\Users\Safwan\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar:C:\Users\Safwan\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar:C:\Users\Safwan\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar:C:\Users\Safwan\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar:C:\Users\Safwan\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar:C:\Users\Safwan\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar:C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar org.testng.remote.RemoteTestNG -serport 52188 -protocol json -d D:\Eclipse\Assignments\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1177710296\testng-customsuite.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:15.894
+!MESSAGE [Info] Document is null for editor: HomePage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:15.895
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/HomePage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:15.962
+!MESSAGE [Info] Document is null for editor: SignupPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:15.963
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/SignupPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.015
+!MESSAGE [Info] Document is null for editor: AccountPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.017
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/AccountPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.048
+!MESSAGE [Info] Document is null for editor: ProductPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.048
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/ProductPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.105
+!MESSAGE [Info] Document is null for editor: CartPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.105
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/CartPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.156
+!MESSAGE [Info] Document is null for editor: BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.157
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/base/BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.229
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.230
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.314
+!MESSAGE [Info] Document is null for editor: SignupAndAddToCartTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-17 14:12:16.315
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/tests/SignupAndAddToCartTest.java
+!SESSION 2026-01-19 10:49:40.014 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-19 10:49:45.726
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-19 10:49:47.728
+!MESSAGE Logback config file: D:\Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-19 10:49:55.856
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Safwan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:50:00.993
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:50:01.030
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:50:01.126
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:50:12.969
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:50:15.317
+!MESSAGE [Info]	[certificates] Removed 14 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:01.085
+!MESSAGE [Info] Document is null for editor: SignupAndAddToCartTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:01.086
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/tests/SignupAndAddToCartTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:05.927
+!MESSAGE [Info] Document is null for editor: HomePage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:05.928
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/pages/HomePage.java
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.114
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.114
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.116
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.129
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 10:54:08.134
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:08.849
+!MESSAGE [Info] Document is null for editor: BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:08.849
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/src/test/java/base/BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:10.203
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 10:54:10.203
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/Assignments/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 10:55:03.910
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:27.837
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:28.500
+!MESSAGE [Info]	[fetchCompletions] Request 2609eb54-d238-430a-ba6a-4d848afb30d5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 658.9235000000335ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:28.630
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:28.945
+!MESSAGE [Info]	[fetchCompletions] Request f7d8bed2-e5a7-4819-957a-410049218198 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.5883000000031ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:29.049
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:29.375
+!MESSAGE [Info]	[fetchCompletions] Request ea001ce1-f458-46c8-badd-379543ce4594 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 289.1687999999849ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 10:55:29.375
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:18:41.058
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:18:46.063
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:18:47.221
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:18:47.221
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:18:47.221
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-01-19 11:18:47.228
+!MESSAGE [Error] org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: getaddrinfo ENOTFOUND api.github.com
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: getaddrinfo ENOTFOUND api.github.com
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.runCompletion(CompletionProvider.java:155)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.run(CompletionProvider.java:131)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: getaddrinfo ENOTFOUND api.github.com
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.446
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.450
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.451
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.452
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.459
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:18:59.465
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:19:05.100
+!MESSAGE [Info] Language ID not found for extension: xml
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:06.821
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 41, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 41, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 41, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:06.855
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 47, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 47, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 47, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:06.905
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 55, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:06.956
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 61, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 61, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 61, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:06.980
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 65, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 65, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 65, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:19:08.586
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:19:10.101
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:14.631
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 107, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 107, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 107, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:19:15.103
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-01-19 11:19:15.549
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-01-19 11:19:19.556
+!MESSAGE Could not detect hyperlinks due to timeout after 4 seconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.documentLink.DocumentLinkDetector.detectHyperlinks(DocumentLinkDetector.java:95)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:19:19.675
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:19:19.676
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: getaddrinfo ENOTFOUND api.github.com
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ENOTFOUND',
+  errno: -3008,
+  erroredSysCall: 'getaddrinfo'
+}
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:19:24.560
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:19:29.561
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:38.640
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 187, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 187, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 187, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:38.705
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 197, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 197, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 197, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:38.769
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 215, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 215, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 215, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:19:38.772
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 216, method: 'textDocument/documentColor') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 216, method: 'textDocument/documentColor') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 216, method: 'textDocument/documentColor') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:19:39.620
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:19:40.781
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: connect ETIMEDOUT 20.205.243.168:443
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: -4039,
+  erroredSysCall: 'connect'
+}
+
+!ENTRY com.microsoft.copilot.eclipse 4 0 2026-01-19 11:19:40.781
+!MESSAGE [Error] org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: connect ETIMEDOUT 20.205.243.168:443
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: connect ETIMEDOUT 20.205.243.168:443
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.runCompletion(CompletionProvider.java:155)
+	at com.microsoft.copilot.eclipse.core.completion.CompletionProvider$CompletionJob.run(CompletionProvider.java:131)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request getCompletions failed with message: connect ETIMEDOUT 20.205.243.168:443
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:19:40.781
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: connect ETIMEDOUT 20.205.243.168:443
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: -4039,
+  erroredSysCall: 'connect'
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-19 11:19:40.781
+!MESSAGE [Error]	[lsp] Request getCompletions: FetchError: connect ETIMEDOUT 20.205.243.168:443
+    at fetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (C:\snapshot\copilot-client\node_modules\@adobe\helix-fetch\src\fetch\index.js:288:16)
+    at kM.fetch (C:\snapshot\copilot-client\lib\src\network\helix.ts:78:22)
+    at apiFetch (C:\snapshot\copilot-client\lib\src\network\github.ts:32:22)
+    at fetchCopilotToken (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:237:16)
+    at authFromGitHubSession (C:\snapshot\copilot-client\lib\src\auth\copilotToken.ts:158:22)
+    at iH.fetchTokenResult (C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:67:29)
+    at C:\snapshot\copilot-client\lib\src\auth\copilotTokenManager.ts:86:24 {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ETIMEDOUT',
+  errno: -4039,
+  erroredSysCall: 'connect'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:19:44.906
+!MESSAGE [Info]	[fetchCompletions] Request 3c4b2143-da26-4e4d-bf92-c6f33bb5bfa6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1127.7686000000685ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:19:44.906
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-01-19 11:19:49.361
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2026-01-19 11:19:49.362
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-01-19 11:19:50.619
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2026-01-19 11:19:50.619
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag name </dependencies> must match start tag name <project> from line 1 (position: TEXT seen ...</dependencies>\r\n\r\n\r\n\t</dependencies>... @116:17) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseEndTag(MXParser.java:2151)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1360)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2155)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:19:56.832
+!MESSAGE [Info]	[fetchCompletions] Request 56143ccb-ae64-48ac-879a-718c8c02c05f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 267.2904999998864ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:19:56.897
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:19:59.769
+!MESSAGE [Info]	[fetchCompletions] Request 7dbea581-2b08-4868-8cf1-b9c5abdac2a5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 243.56329999980517ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:00.280
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:00.678
+!MESSAGE [Info]	[fetchCompletions] Request a37f9ebf-eb0f-4a96-9c30-3d096ec5c8a4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.159200000111ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:00.679
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:20:02.509
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:20:02.880
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:17.175
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:17.175
+!MESSAGE [Info]	[fetchCompletions] Request 6f6ab586-5f34-494b-bda6-bffdd7592b9d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 290.7095000001136ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:17.888
+!MESSAGE [Info]	[fetchCompletions] Request eb1cdc25-2b11-458f-9bf9-58bbbab4be58 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 250.13999999989755ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:17.947
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:20:19.890
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:55.038
+!MESSAGE [Info]	[fetchCompletions] Request f6ea3f11-81e1-4943-adcc-090f564392bc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 240.23460000008345ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:55.100
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:55.762
+!MESSAGE [Info]	[fetchCompletions] Request c72326fc-fc84-4181-be7f-6e079ff7ebca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 248.81230000010692ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:56.053
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:56.328
+!MESSAGE [Info]	[fetchCompletions] Request 0078d56e-9f37-4068-a6d8-78b083ef13ee at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.26399999996647ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:20:56.446
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 11:21:17.086
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\YelowcabAdmin\target\test-classes D:\Eclipse\YelowcabAdmin\target\classes C:\Users\Safwan\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar C:\Users\Safwan\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar C:\Users\Safwan\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar C:\Users\Safwan\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar C:\Users\Safwan\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar C:\Users\Safwan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar C:\Users\Safwan\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar C:\Users\Safwan\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar C:\Users\Safwan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar C:\Users\Safwan\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar C:\Users\Safwan\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar C:\Users\Safwan\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar C:\Users\Safwan\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar C:\Users\Safwan\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55472 -protocol json -d D:\Eclipse\YelowcabAdmin\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1470290987\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\YelowcabAdmin\target\test-classes:D:\Eclipse\YelowcabAdmin\target\classes:C:\Users\Safwan\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar:C:\Users\Safwan\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar:C:\Users\Safwan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\Safwan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar:C:\Users\Safwan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar:C:\Users\Safwan\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar:C:\Users\Safwan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar:C:\Users\Safwan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar:C:\Users\Safwan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.3\webdrivermanager-5.9.3.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar:C:\Users\Safwan\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar:C:\Users\Safwan\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java\3.4.1\docker-java-3.4.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-core\3.4.1\docker-java-core-3.4.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-api\3.4.1\docker-java-api-3.4.1.jar:C:\Users\Safwan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.1\docker-java-transport-httpclient5-3.4.1.jar:C:\Users\Safwan\.m2\repository\com\github\docker-java\docker-java-transport\3.4.1\docker-java-transport-3.4.1.jar:C:\Users\Safwan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\Safwan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar:C:\Users\Safwan\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-java\7.22.0\cucumber-java-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-core\7.22.0\cucumber-core-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-gherkin\7.22.0\cucumber-gherkin-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.22.0\cucumber-gherkin-messages-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\gherkin\32.1.0\gherkin-32.1.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar:C:\Users\Safwan\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar:C:\Users\Safwan\.m2\repository\io\cucumber\datatable\7.22.0\datatable-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-plugin\7.22.0\cucumber-plugin-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\docstring\7.22.0\docstring-7.22.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\html-formatter\21.10.0\html-formatter-21.10.0.jar:C:\Users\Safwan\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar:C:\Users\Safwan\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar:C:\Users\Safwan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar:C:\Users\Safwan\.m2\repository\io\cucumber\cucumber-testng\7.22.0\cucumber-testng-7.22.0.jar:C:\Users\Safwan\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar:C:\Users\Safwan\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar:C:\Users\Safwan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar:C:\Users\Safwan\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar:C:\Users\Safwan\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar:C:\Users\Safwan\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar:C:\Users\Safwan\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-reload4j\1.7.36\slf4j-reload4j-1.7.36.jar:C:\Users\Safwan\.m2\repository\ch\qos\reload4j\reload4j\1.2.19\reload4j-1.2.19.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 55472 -protocol json -d D:\Eclipse\YelowcabAdmin\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1470290987\testng-customsuite.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:22:02.391
+!MESSAGE [Info]	[fetchCompletions] Request 9c21e126-2063-4894-8fad-18eecde5d729 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 417.6657999998424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:22:02.391
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:22:08.187
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:22:24.139
+!MESSAGE [Info]	[fetchCompletions] Request 280970c1-b4e9-41be-8b57-335e1c8d8716 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.5863000000827ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:22:24.226
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:22:31.316
+!MESSAGE The artifact org.slf4j:slf4j-log4j12:jar:1.7.36 has been relocated to org.slf4j:slf4j-reload4j:jar:1.7.36
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:36:38.185
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:36:38.187
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/YelowcabAdmin/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:36:39.278
+!MESSAGE [Info] Document is null for editor: VehicleActiveInactive.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:36:39.279
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/YelowcabAdmin/src/test/java/APITesting/VehicleActiveInactive.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:37:42.092
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:37:42.096
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.276
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.277
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.278
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.279
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.286
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-19 11:37:46.288
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:38:26.476
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 93, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 93, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 93, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:38:26.482
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 95, method: 'textDocument/codeLens') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 95, method: 'textDocument/codeLens') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 95, method: 'textDocument/codeLens') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.jface.text 4 0 2026-01-19 11:38:26.494
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 96, method: 'textDocument/documentColor') has been cancelled
+!STACK 0
+java.util.concurrent.CompletionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 96, method: 'textDocument/documentColor') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:636)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:314)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 96, method: 'textDocument/documentColor') has been cancelled
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:38:26.805
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:38:26.808
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:38:27.173
+!MESSAGE [Info]	[fetchCompletions] Request ceab9a08-8d02-4e16-941e-4bd428022a29 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 763.5949000003748ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:38:27.828
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [content_filter]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:38:27.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:38:27.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:38:28.176
+!MESSAGE [Info]	[fetchCompletions] Request 66a07b5a-4ea8-4f69-9ca3-cee84f65ff0c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 327.19120000023395ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:38:28.237
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-01-19 11:38:42.835
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:39:35.987
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:39:35.991
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:30.633
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:30.637
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:48.180
+!MESSAGE [Info]	[fetchCompletions] Request 28715eb1-5ddb-4b5b-ac95-9c7becba8f08 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 698.1725999996997ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:48.180
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:49.450
+!MESSAGE [Info]	[fetchCompletions] Request 2969ccbe-40fa-4d34-864e-bb3cd8cf5b7b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 284.6408000001684ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:49.512
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:40:49.524
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:49.799
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:40:49.799
+!MESSAGE [Info]	[fetchCompletions] Request 2682f684-3710-437a-8db4-4ff25ab8356e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 263.783900000155ms
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:40:49.891
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:50.528
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:50.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:52.406
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:40:52.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:22.275
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:22.278
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:28.925
+!MESSAGE [Info]	[fetchCompletions] Request 8d2d2a54-82b6-4276-839f-4299e12478c3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 282.17109999991953ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:28.931
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:29.737
+!MESSAGE [Info]	[fetchCompletions] Request 2a52382e-ea95-41d3-b3f0-65d3925e8345 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 271.14850000012666ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:29.740
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:30.965
+!MESSAGE [Info]	[fetchCompletions] Request 6a3b83a4-3d8b-41f1-9688-9294ec6e1a67 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 274.5189000000246ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:31.126
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:31.309
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:31.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:31.514
+!MESSAGE [Info]	[fetchCompletions] Request 1be48c0a-db6f-4487-8b0c-7d93006fae16 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.89979999978095ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:31.577
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:34.298
+!MESSAGE [Info]	[fetchCompletions] Request dc8bf4d6-af8c-49f6-9f1b-790b00117a3b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 295.0010000001639ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:34.478
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:34.481
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:34.490
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:41:35.126
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:35.500
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:41:35.503
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:35.525
+!MESSAGE [Info]	[fetchCompletions] Request 98922f0c-f86f-4684-8d13-dc6b14b89a73 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1015.8689999999478ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:41:35.592
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:16.589
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:16.592
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:27.380
+!MESSAGE [Info]	[fetchCompletions] Request ca61bd56-be3d-4038-9644-e32d7ba0b874 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 279.1181000000797ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:27.444
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:34.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:34.997
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:35.336
+!MESSAGE [Info]	[fetchCompletions] Request cf78507d-694b-4360-a558-95662f54dcef at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 287.9766000001691ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:35.398
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:36.250
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:36.254
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:36.274
+!MESSAGE [Info]	[fetchCompletions] Request 08650d80-9419-4559-a7a2-cfb3d92b0785 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.16869999980554ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:36.336
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:40.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:42:40.905
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:41.201
+!MESSAGE [Info]	[fetchCompletions] Request f1734d3d-0f38-46eb-af7b-09e36da1868d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 268.42189999995753ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:42:41.226
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 11:43:00.188
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59372 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--682840805\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 59372 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--682840805\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:44:53.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:44:53.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:44:57.228
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:44:59.033
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:44:59.034
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:00.101
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:00.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 11:45:02.229
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:02.942
+!MESSAGE [Info]	[fetchCompletions] Request d2bc8db4-bfcb-4410-afc3-cbcff51e00d3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 695.8255000002682ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:03.014
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:03.330
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:03.330
+!MESSAGE [Info]	[fetchCompletions] Request 135f5ee5-21f6-430b-a6cf-52eed12a3e16 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 295.3332000002265ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:22.264
+!MESSAGE [Info]	[fetchCompletions] Request eefef04c-02d3-4c60-912b-31be61962b41 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.0603000000119ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:22.395
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:45:22.403
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:22.786
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:22.787
+!MESSAGE [Info]	[fetchCompletions] Request 55ab2dbb-9be3-4d37-8cb6-31e7750e8222 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 370.063300000038ms
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:45:22.953
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:23.330
+!MESSAGE [Info]	[fetchCompletions] Request b62c0d5d-a307-4f18-be5c-e8f324f77833 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 277.8487999998033ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:23.394
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:23.396
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:23.457
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:45:23.461
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:23.936
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:45:23.938
+!MESSAGE [Info]	[fetchCompletions] Request 26c0bed9-8243-4768-8ff6-9639f92b5f2f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 467.10190000012517ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:32.186
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:32.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:38.464
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:45:38.467
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 11:45:48.526
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63504 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1504250703\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 63504 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1504250703\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:46:37.768
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:46:37.770
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:37.918
+!MESSAGE [Info]	[fetchCompletions] Request 0daaba29-96e1-4919-8bd7-9ced9f7edd18 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.4397999998182ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:38.226
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:46:38.232
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:38.539
+!MESSAGE [Info]	[fetchCompletions] Request 3748e5ca-a37d-4705-84ad-f272544bb6f2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 296.87710000015795ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:38.753
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:39.059
+!MESSAGE [Info]	[fetchCompletions] Request 4eeb0fdf-dbd6-49ce-833b-5a67f5c32f36 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 295.28029999975115ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:39.144
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:39.444
+!MESSAGE [Info]	[fetchCompletions] Request 1e4598c8-88fd-43cf-8c8a-d042623bced1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 287.7377999997698ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:39.640
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:41.803
+!MESSAGE [Info]	[fetchCompletions] Request b8eee50c-330b-49da-983d-86a18d0c4720 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 393.67179999966174ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:41.827
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:46:42.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:46:42.105
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:42.293
+!MESSAGE [Info]	[fetchCompletions] Request 232d221e-3231-4fdb-8c08-6f5b0220b0f1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 446.7151000001468ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:46:42.457
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:47:39.643
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:47:39.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 11:47:46.727
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49758 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-1039308952\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 49758 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-1039308952\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:48:28.947
+!MESSAGE Error
+!STACK 0
+org.eclipse.jface.text.BadLocationException: 357
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1112)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:246)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:863)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.testng.eclipse.ui.codemining.TestCodeMining.resolveLine(TestCodeMining.java:29)
+	at org.testng.eclipse.ui.codemining.TestCodeMining.<init>(TestCodeMining.java:17)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:101)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:30.359
+!MESSAGE [Info]	[fetchCompletions] Request 1774c495-2bde-4722-b375-3f3358160df2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 289.89919999986887ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:30.483
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:48:30.488
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:30.755
+!MESSAGE [Info]	[fetchCompletions] Request 55d56be0-aae4-40ef-8b58-248447be7b23 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 256.2623999998905ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:30.756
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:48:31.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:48:31.573
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:31.601
+!MESSAGE [Info]	[fetchCompletions] Request 163f718a-daa3-4787-96e2-066c290d57da at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 357.944700000342ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:31.700
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:32.159
+!MESSAGE [Info]	[fetchCompletions] Request 71ad7e36-c55e-4535-a962-6f0728380ed6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 432.86520000034943ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:32.159
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:48:36.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-19 11:48:36.799
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:37.111
+!MESSAGE [Info]	[fetchCompletions] Request 3d7995e8-1769-4b9a-96de-21e66f14a5b3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 280.86210000002757ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:37.234
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 4 4 2026-01-19 11:48:37.256
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:37.578
+!MESSAGE [Info]	[fetchCompletions] Request b11fe1dc-95de-4189-98d5-770d24fb7eed at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.1493999999948ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-19 11:48:37.578
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 11:48:41.398
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52735 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1311614097\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 52735 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1311614097\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 12:58:39.746
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50454 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1203003531\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 50454 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1203003531\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 13:18:49.369
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58034 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1992026647\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 58034 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse--1992026647\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2026-01-19 14:02:48.880
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar D:\Eclipse\APITesting\target\test-classes D:\Eclipse\APITesting\target\classes C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65427 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-1039381981\testng-customsuite.xml
+java -ea -classpath C:\Users\Safwan\Eclipse\eclipse\configuration\org.eclipse.osgi\1014\0\.cp\lib\testng-remote.jar:D:\Eclipse\APITesting\target\test-classes:D:\Eclipse\APITesting\target\classes:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\Safwan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Safwan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\Safwan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\Safwan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\Safwan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\Safwan\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar:C:\Users\Safwan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar:C:\Users\Safwan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar:C:\Users\Safwan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar:C:\Users\Safwan\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar:C:\Users\Safwan\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar org.testng.remote.RemoteTestNG -serport 65427 -protocol json -d D:\Eclipse\APITesting\test-output C:\Users\Safwan\AppData\Local\Temp\testng-eclipse-1039381981\testng-customsuite.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:28.944
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:28.949
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/APITesting/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.002
+!MESSAGE [Info] Document is null for editor: GetVehicle.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.003
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/APITesting/src/test/java/VehicleActive/GetVehicle.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.052
+!MESSAGE [Info] Document is null for editor: BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.053
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/APITesting/src/test/java/Base/BaseTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.074
+!MESSAGE [Info] Document is null for editor: ApiConstants.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.076
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/APITesting/src/test/java/Base/ApiConstants.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.110
+!MESSAGE [Info] Document is null for editor: VehicleActiveInactiveTest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-19 17:22:29.111
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Eclipse/APITesting/src/test/java/APITesting/VehicleActiveInactiveTest.java
+!SESSION 2026-01-23 11:25:35.045 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-23 11:25:41.046
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-23 11:25:42.942
+!MESSAGE Logback config file: D:\Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-23 11:25:50.968
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Safwan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-23 11:25:51.069
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-23 11:25:51.073
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-01-23 11:25:51.184
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.766
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.767
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.768
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.769
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.779
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-01-23 11:25:55.782
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-23 11:26:06.767
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-01-23 11:26:07.767
+!MESSAGE [Info]	[certificates] Removed 14 expired certificates
