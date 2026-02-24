@@ -17,8 +17,7 @@ public class BaseTest {
 	@BeforeMethod
 	public void setup() {
 
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Browser Drivers\\Chrome Drivers\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\Browser Drivers\\Chrome Drivers\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
 
 		ChromeOptions options = new ChromeOptions();
 
